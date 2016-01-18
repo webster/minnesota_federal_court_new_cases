@@ -3,7 +3,7 @@ import lxml.html
 import urllib2
 import dateutil.parser as parser
 
-url = "http://www.mnd.uscourts.gov/ncs/open_cases_report.html"
+url = "https://ecf.mnd.uscourts.gov/newcases/open_cases_report.html"
 html = urllib2.urlopen(url).read()
 print "The HTML file is %d bytes" % len(html)
 print html
